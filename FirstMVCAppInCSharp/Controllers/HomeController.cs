@@ -15,6 +15,8 @@ namespace FirstMVCAppInCSharp.Controllers
 
         public IActionResult Index()
         {
+            Student student = new Student();
+            student.Name = "David";
             return View();
         }
 
