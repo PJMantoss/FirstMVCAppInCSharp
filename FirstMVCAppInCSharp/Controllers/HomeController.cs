@@ -17,6 +17,7 @@ namespace FirstMVCAppInCSharp.Controllers
         {
             Student student = new Student();
             student.Name = "David";
+            student.City = "Kaduna";
             return View();
         }
 
